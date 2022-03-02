@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mohamed Mohsen</title>
+    <style>
+    * {
+    padding: 0;
+}
+
+body {
+    background-color: rgb(30, 30, 30);
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.navbar ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.navbar ul li a:hover{
+    color: #ff4321;
+}
+
+.contener {
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+.contener h2 {
+    font-size: 50px;
+    color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.g {
+    color: #ff4321;
+    font-size: 40px;
+}
+
+.name {
+    color: rgb(0, 119, 255);
+}
+
+.contener p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+}
+
+.contener a {
+    margin: 80px;
+    width: 70px;
+    height: 50px;
+    text-decoration: none;
+    background-color: black;
+    color: #fff;
+    border: 10px solid #000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+
+}
+
+
+.profilephoto {
+    width: 100px;
+    height: 130px;
+    position: absolute;
+    top: 80px;
+}
+
+.up-logo {
+    width: 400px;
+    height: 300px;
+    cursor: pointer;
+    position: absolute;
+    top: 90px;
+    left: 600px;
+    border-radius: 10px;
+}
+
+.icons {
+    display: flex;
+    width: 100%;
+    height: 60px;
+}
+
+.icons .icon1 {
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 60px;
+    border-radius: 30px;
+}
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">cntact</a></li>
+        </ul>
+    </div>
+
+    <div class="contener">
+        <h2>Frontend <span class="g">developer</span></h2>
+        <p>My name is :<span class="g name"><br>Mohamed Mohsen </span><br> <br>I can help you on any site you want i have experience in <br/> (HTML , CSS , JS , HTML5 , CSS3)</p>
+        <a href="pdf/_CSS.pdf">Download <span>cv</span></a>
+    </div>
+
+    <div class="profilephoto">
+        <img src="web-design-g9a8d52ab9_1920.jpg" class="up-logo">
+    </div>
+    <div class="icons">
+        <a href="https://m.facebook.com/100022771397216/"><img src="facebook.png" class="icon1 facebook"></a>
+        <a href="https://wa.me/+201122524011"><img src="whatsapp.png" class="icon1 whatsapp"></a>
+        <a href="https://www.linkedin.com/in/mohamed-mohsen-30185621a"><img src="linkedin.png" class="icon1 linkedin"></a>
+    </div>
+</body>
+</html>
